@@ -290,13 +290,13 @@ main section:nth-of-type(even)::before {
 
 /* Floating scroll indicator */
 #home::after {
-  content: '↓';
-  font-size: 2.5rem;
+  content: '👇';
+  font-size: 5rem;
   color: var(--text-secondary);
   position: absolute;
   bottom: 2rem;
   animation: floatArrow 2s ease-in-out infinite;
-  opacity: 0.6;
+  opacity: 1;
 }
 @keyframes floatArrow {
   0%, 100% { transform: translateY(0); }
